@@ -1,0 +1,15 @@
+{
+    "name": "wardcody/tdameritrade",
+    "description": "A simple PHP package to retrieve data from TD Ameritrade's API",
+    "keywords": ["tdameritrade"],
+    "version": "0.0.1",
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TDAmeritrade\\": "src"
+        }
+    }
+}
